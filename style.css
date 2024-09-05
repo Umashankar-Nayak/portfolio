@@ -1,0 +1,113 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  padding: 15px 20px;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  position: relative;
+  right: 5%;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+
+.hero-content {
+  position: relative;
+  top:10%;
+  text-align: center;
+}
+
+.hero h1 {
+  position: relative;
+  right: 15%;
+  text-align: left;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#fd7f7f, #fdd986);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  position: relative;
+  right: 15%;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 30px;
+
+}
+
+
+.hero-buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #ff6f61;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.hero-buttons .btn:hover {
+  background-color: #ff6f61;
+}
+
+.email-link {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+
+.hero-buttons {
+  margin-top: 15px;
+}
+
+#email{
+  position:absolute;
+  top: 88%;
+  
+  right: 60%;
+}
